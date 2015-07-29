@@ -164,11 +164,11 @@ void GpioOnOff::run()
 
 #ifdef Q_WS_QWS
 
-//    qDebug("Loading eCos firmware...");
-//    QProcess processMqx;
-//    processMqx.start("mqxboot /home/root/Robo.bin 0x8f000400 0x0f000411");
-//    if (!processMqx.waitForFinished())
-//        qWarning() << "mqxboot failed";
+    qDebug("Loading eCos firmware...");
+    QProcess processMqx;
+    processMqx.start("mqxboot /usr/bin/images/Robo.bin 0x8f000400 0x0f000411");
+    if (!processMqx.waitForFinished())
+        qWarning() << "mqxboot failed";
 #endif
 
     retval = initmcc();

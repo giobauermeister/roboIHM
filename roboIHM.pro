@@ -59,5 +59,6 @@ DISTFILES += \
     images/Numero3_blue_25.png \
     images/Numero4_blue_25.png \
     images/Toradex.png \
-    images/toradex-logo-white.png
+    images/toradex-logo-white.png \
+    images/Robo.bin
 
