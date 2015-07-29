@@ -176,7 +176,6 @@ void GpioOnOff::run()
         qDebug("Error during mcc_get_info, result = %d", retval);
     }
 
-
     while(1)
     {
         int send =0;
@@ -200,12 +199,11 @@ void GpioOnOff::run()
             data4LocalData =data4;
             send =1;
         }
-
         if(send)
         {
 #ifdef Q_WS_QWS
         mccsendstart(data1, data2, data3, data4);
-            qDebug("teste 7");
+            qDebug("teste 2");
         qDebug("Data1 = %d | Data2 = %d | Data3 = %d | Data4 = %d", data1, data2, data3, data4);
 #endif
         }

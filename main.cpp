@@ -4,15 +4,18 @@
 //#include "gpio.h"
 #include <QWSServer>
 
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv, QApplication::GuiServer);
-    QDeclarativeView view;
+    //QDeclarativeView view;
+
+    MainWindow w;
 
     GpioOnOff gpio;
     gpio.start();
 
-    MainWindow w;
+
 
     //hide the cursor as we use touchscreen
     QWSServer *server = QWSServer::instance();
@@ -25,7 +28,7 @@ int main(int argc, char *argv[])
     w.setExternGpio(&gpio);
     w.show();
 
-    gpio.terminate();
+    //gpio.terminate();
 
     return a.exec();
 }
