@@ -42,24 +42,22 @@ FORMS    += mainwindow.ui
 RESOURCES += \
     resources.qrc
 
-OTHER_FILES += \
-    resources/Numero1_blue_25.png \
-    resources/Numero2_blue_25.png \
-    resources/Numero3_blue_25.png \
-    resources/Numero4_blue_25.png \
-    resources/toradex-logo-white.png \
-    resources/Toradex.png
-
 
 
 # deployment on Linux
 unix {
     target.path = /usr/bin/
-    resources.path = /home/root/resources
-    resources.files = resources/*
-    other_files.path = /home/root/other_files
+    images.path = /usr/bin/images/
+    images.files = images/*
     INSTALLS += target \
-             resources \
-             other_files \
+             images \
 }
+
+DISTFILES += \
+    images/Numero1_blue_25.png \
+    images/Numero2_blue_25.png \
+    images/Numero3_blue_25.png \
+    images/Numero4_blue_25.png \
+    images/Toradex.png \
+    images/toradex-logo-white.png
 

@@ -81,7 +81,7 @@ border-radius: 4px;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../root/resources/Toradex.png</pixmap>
+     <pixmap>images/Toradex.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -97,7 +97,7 @@ border-radius: 4px;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../root/resources/Toradex.png</pixmap>
+     <pixmap>images/Toradex.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -113,7 +113,7 @@ border-radius: 4px;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../root/resources/toradex-logo-white.png</pixmap>
+     <pixmap>images/toradex-logo-white.png</pixmap>
     </property>
    </widget>
    <widget class="QPushButton" name="btn2">
@@ -133,7 +133,7 @@ border-radius: 4px;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../../../root/resources/Numero2_blue_25.png</normaloff>../../../../root/resources/Numero2_blue_25.png</iconset>
+      <normaloff>images/Numero2_blue_25.png</normaloff>images/Numero2_blue_25.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -162,7 +162,7 @@ border-radius: 4px;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../../../root/resources/Numero3_blue_25.png</normaloff>../../../../root/resources/Numero3_blue_25.png</iconset>
+      <normaloff>images/Numero3_blue_25.png</normaloff>images/Numero3_blue_25.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -191,7 +191,7 @@ border-radius: 4px;
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../../../root/resources/Numero4_blue_25.png</normaloff>../../../../root/resources/Numero4_blue_25.png</iconset>
+      <normaloff>images/Numero4_blue_25.png</normaloff>images/Numero4_blue_25.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -453,7 +453,7 @@ QSlider::handle:disabled
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../../../root/resources/Numero1_blue_25.png</normaloff>../../../../root/resources/Numero1_blue_25.png</iconset>
+      <normaloff>images/Numero1_blue_25.png</normaloff>images/Numero1_blue_25.png</iconset>
     </property>
     <property name="iconSize">
      <size>

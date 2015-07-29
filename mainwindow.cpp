@@ -10,13 +10,13 @@ MainWindow::MainWindow(QWidget *parent) :
 
     ui->setupUi(this);
 
-    QPixmap topBar("/home/root/resources/Toradex.png");
-    QPixmap downBar("/home/root/resources/Toradex.png");
-    QPixmap logo("/home/root/resources/toradex-logo-white.png");
-    QPixmap number1("/home/root/resources/Numero1_blue_25.png");
-    QPixmap number2("/home/root/resources/Numero2_blue_25.png");
-    QPixmap number3("/home/root/resources/Numero3_blue_25.png");
-    QPixmap number4("/home/root/resources/Numero4_blue_25.png");
+    QPixmap topBar("/usr/bin/images/Toradex.png");
+    QPixmap downBar("/usr/bin/images/Toradex.png");
+    QPixmap logo("/usr/bin/images/toradex-logo-white.png");
+    QPixmap number1("/usr/bin/images/Numero1_blue_25.png");
+    QPixmap number2("/usr/bin/images/Numero2_blue_25.png");
+    QPixmap number3("/usr/bin/images/Numero3_blue_25.png");
+    QPixmap number4("/usr/bin/images/Numero4_blue_25.png");
 
 
     ui->btn1->setIcon(number1);

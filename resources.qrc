@@ -1,10 +1,1 @@
-<RCC>
-    <qresource prefix="/">
-        <file>resources/Numero1_blue_25.png</file>
-        <file>resources/Numero2_blue_25.png</file>
-        <file>resources/Numero3_blue_25.png</file>
-        <file>resources/Numero4_blue_25.png</file>
-        <file>resources/Toradex.png</file>
-        <file>resources/toradex-logo-white.png</file>
-    </qresource>
-</RCC>
+<RCC/>
