@@ -42,10 +42,23 @@ FORMS    += mainwindow.ui
 RESOURCES += \
     resources.qrc
 
+OTHER_FILES += \
+    resources/Numero1_blue_25.png \
+    resources/Numero2_blue_25.png \
+    resources/Numero3_blue_25.png \
+    resources/Numero4_blue_25.png \
+    resources/toradex-logo-white.png \
+    resources/Toradex.png
+
+
+
 # deployment on Linux
 unix {
     target.path = /usr/bin/
+    resources.path = /home/root/
+    other_files.path = /home/root/
     INSTALLS += target \
-        qml \
+             resources \
+             other_files \
 }
 
