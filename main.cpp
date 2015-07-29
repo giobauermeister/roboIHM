@@ -2,36 +2,30 @@
 #include <QApplication>
 #include <QWidget>
 //#include "gpio.h"
-
-
-#define ARM
-//#define DESKTOP
+#include <QWSServer>
 
 int main(int argc, char *argv[])
 {
+    QApplication a(argc, argv, QApplication::GuiServer);
+    QDeclarativeView view;
 
     GpioOnOff gpio;
     gpio.start();
 
-#ifdef ARM
-    QApplication a(argc, argv , QApplication::GuiServer);
     MainWindow w;
+
+    //hide the cursor as we use touchscreen
+    QWSServer *server = QWSServer::instance();
+    if(server) {
+        server->setCursorVisible(false);
+    }
+
     w.setCursor(Qt::BlankCursor);
     w.setWindowState(w.windowState() ^ Qt::WindowFullScreen);
     w.setExternGpio(&gpio);
     w.show();
-#endif
 
-#ifdef DESKTOP
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.setWindowState(w.windowState());
-    w.setExternGpio(&gpio);
-    w.show();
-#endif
-
-
-
+    gpio.terminate();
 
     return a.exec();
 }
