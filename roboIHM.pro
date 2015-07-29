@@ -55,8 +55,9 @@ OTHER_FILES += \
 # deployment on Linux
 unix {
     target.path = /usr/bin/
-    resources.path = /home/root/
-    other_files.path = /home/root/
+    resources.path = /home/root/resources
+    resources.files = resources/*
+    other_files.path = /home/root/other_files
     INSTALLS += target \
              resources \
              other_files \
