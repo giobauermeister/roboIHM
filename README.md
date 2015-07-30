@@ -51,7 +51,9 @@ For powering all up, we used two wall adapters, one 5V power supply for the robo
 | pin 19 (SODIMM  79)   | Forearm Servo      |
 
 
-<a href="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN"><img src="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN" style="width: 100px; max-width: 50%; height: 100" /></a>
+<a href="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN"><img src="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN" style="width: 50px; max-width: 50%; height: 50px" /></a>
+
+
 
 
 
