@@ -3,7 +3,7 @@
 
 ##Overview##
 
-This article demonstrates the capability of QT framework on Toradex computer modules, and also, the use of the cortex M4 core on Toradex Colibri VF61 module. Making use of the Multicore Comunication Library(MCC), the Qt application sends message to the M4 core, that in turn, controls a robotic arm built with servos. The repository also includes a eCos Firmware(a binary file) which will be loaded by the Qt Application.    
+This article demonstrates the capability of QT framework on Toradex computer modules, and also, the use of the cortex M4 core on Toradex Colibri VF61 module. Making use of the Multicore Comunication Library(MCC), the Qt application sends message to the M4 core, that in turn, controls a robotic arm built with servos. The repository also includes an eCos Firmware(a binary file) which will be loaded by the Qt Application.    
 
 ##Steps to run the demo##
 
