@@ -50,12 +50,8 @@ For powering all up, we used two wall adapters, one 5V power supply for the robo
 | pin 17 (SODIMM  97)   | Claw    Servo      |
 | pin 19 (SODIMM  79)   | Forearm Servo      |
 
-![alt tag](https://drive.google.com/open?id=0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN)
-![alt tag](https://drive.google.com/open?id=0B7uO0jJfbFQIeURMQVVnbXgwREpPQU96NXc3VFFPQjdaZHVF)
-![alt tag](https://drive.google.com/open?id=0B7uO0jJfbFQIajBBS3E0NkJ6NUtkWUlLSUpIRU5NUWpZRG1J)
-
 <img src="https://drive.google.com/file/d/0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN/view?usp=sharing" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" />
-<a href="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN"><img src="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN" style="width: 250px; max-width: 50%; height: auto" /></a>
+alt="IMAGE ALT TEXT HERE" width="150" height="90" border="10" />
+<a href="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIY1B5UDEtTE5PQlVXSEVXanlWZW4xYVhuR2pN"><img src="https://drive.google.com/uc?export=view&id=XXX" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
    
    
