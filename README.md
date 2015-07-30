@@ -1,5 +1,5 @@
 ##RoboIHM
-#This is a Qt demo application for controlling a robotic arm built with servos
+#Qt demo application for controlling a robotic arm built with servos
 
 ##Overview##
 
