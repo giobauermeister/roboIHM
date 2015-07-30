@@ -23,14 +23,7 @@ To add that packege you have to add on local.conf
 
  IMAGE_INSTALL_append = " qt-robo-demo "
 
-By default that recipe configure the screen size to 800x480.
-
-You have also the option to use 1024x600, to do it change the file:
-
-    vi meta-toradex-extra/recipes-qt/qt-automotive-cluster-demo/qt-automotive-cluster-demo_0.1.bb
-
---EXTRA_QMAKEVARS_PRE += "CONFIG+=no-webcam"  
-++EXTRA_QMAKEVARS_PRE += "CONFIG+=no-webcam DEFINES+=RESOLUTION_1024x600"
+By default that recipe configure the screen size to 800x480. Other screen resolutions have to be implemented.
 
 In order to make loading of the eCos firmware possible the Linux memory
 resources need to be restricted using U-Boot arguments:
