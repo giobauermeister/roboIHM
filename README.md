@@ -50,7 +50,7 @@ For powering all up, we used two wall adapters, one 5V power supply for the robo
 
 <a href="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIajBBS3E0NkJ6NUtkWUlLSUpIRU5NUWpZRG1J"><img src="https://drive.google.com/uc?export=view&id=0B7uO0jJfbFQIajBBS3E0NkJ6NUtkWUlLSUpIRU5NUWpZRG1J"/></a>
 
-
+<iframe src="http://gifs.com/embed/Kz4zXQ" frameborder="0" scrolling="no" width='480' height='270' style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
 
 
 
